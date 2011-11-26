@@ -33,14 +33,14 @@ In order to render our cube in 3D we need to simulate the perspective effect we 
 
      Matrix4x4 projectionMatirx = PerspectiveMatrix(45.0f, [[self view] bounds].size.width / [[self view] bounds].size.height, 0.1f, 100.0f);
 
-We won't go into how a perspective matrix is constructed in this tutorial and why it works.  To fully understand that I highly recommend that you get yourself a good book on linear algebra, or watch the various free lectures on iTunes U.  For the moment, all you need to understand is that a matrix can be used as a representation for a conversion from one coordinate space to another.  In this case, it represents conversion from "view" space ะ i.e. the position of vertices in front of the camera, to "clip" space ะ a cube from -1 to 1 on each axis which OpenGL maps to the screen.
+We won't go into how a perspective matrix is constructed in this tutorial and why it works.  To fully understand that I highly recommend that you get yourself a good book on linear algebra, or watch the various free lectures on iTunes U.  For the moment, all you need to understand is that a matrix can be used as a representation for a conversion from one coordinate space to another.  In this case, it represents conversion from "view" space - i.e. the position of vertices in front of the camera, to "clip" space - a cube from -1 to 1 on each axis which OpenGL maps to the screen.
 
 We also set up two other matrices, which also represent coordinate space transforms:
 
      Matrix4x4 viewMatrix = TranslationMatrix(0.0f, 0.0f, -5.0f);
      Matrix4x4 modelMatrix = RotationMatrix(0.707f, 0.3f, 0.64f, timeValue);
 
-The view matrix we use to convert from "world" space ะ i.e. the position of vertices in the world, to "view" space.  The model matrix we use to convert from "model" space ะสi.e. the position of vertices relative to the model's origin, to "world" space.
+The view matrix we use to convert from "world" space - i.e. the position of vertices in the world, to "view" space.  The model matrix we use to convert from "model" space -สi.e. the position of vertices relative to the model's origin, to "world" space.
 
 Finally, we want to combine all these coordinate space transforms, so that we end up with one single transform that takes us all the way from the position of the vertices in the model, to clip space.  We do this by multiplying the various transformation matrices together:
 
