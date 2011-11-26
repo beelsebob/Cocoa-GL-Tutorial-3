@@ -11,8 +11,17 @@
 		1F3C09561480F82B00324050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09541480F82B00324050 /* InfoPlist.strings */; };
 		1F3C09581480F82B00324050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C09571480F82B00324050 /* main.m */; };
 		1F3C095C1480F82B00324050 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C095A1480F82B00324050 /* Credits.rtf */; };
-		1F3C095F1480F82B00324050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C095E1480F82B00324050 /* AppDelegate.m */; };
 		1F3C09621480F82B00324050 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09601480F82B00324050 /* MainMenu.xib */; };
+		1F3C096B1480F87F00324050 /* GLTutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C096A1480F87F00324050 /* GLTutorialController.m */; };
+		1F3C09761480F89B00324050 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09711480F89B00324050 /* Shader.fsh */; };
+		1F3C09771480F89B00324050 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09721480F89B00324050 /* Shader.vsh */; };
+		1F3C09781480F89B00324050 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09741480F89B00324050 /* background.png */; };
+		1F3C09791480F89B00324050 /* hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09751480F89B00324050 /* hole.png */; };
+		1F3C097B1480F8C100324050 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3C097A1480F8C100324050 /* QuartzCore.framework */; };
+		1F3C097D1480F8C700324050 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3C097C1480F8C700324050 /* OpenGL.framework */; };
+		1F3C097F1480FBC400324050 /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C097E1480FBC400324050 /* Matrix.m */; };
+		1F3C098E1480FC8400324050 /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C098D1480FC8400324050 /* Vector.m */; };
+		1F3C09901481020500324050 /* Colour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C098F1481020500324050 /* Colour.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +30,27 @@
 		1F3C094E1480F82B00324050 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1F3C094F1480F82B00324050 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1F3C09501480F82B00324050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1F3C09531480F82B00324050 /* Cocoa-GL-Tutorial-3-Info.plist */ = {isa = PBXFileReference; path = "Cocoa-GL-Tutorial-3-Info.plist"; sourceTree = "<group>"; };
+		1F3C09531480F82B00324050 /* Cocoa-GL-Tutorial-3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocoa-GL-Tutorial-3-Info.plist"; sourceTree = "<group>"; };
 		1F3C09551480F82B00324050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F3C09571480F82B00324050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F3C09591480F82B00324050 /* Cocoa-GL-Tutorial-3-Prefix.pch */ = {isa = PBXFileReference; path = "Cocoa-GL-Tutorial-3-Prefix.pch"; sourceTree = "<group>"; };
+		1F3C09591480F82B00324050 /* Cocoa-GL-Tutorial-3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoa-GL-Tutorial-3-Prefix.pch"; sourceTree = "<group>"; };
 		1F3C095B1480F82B00324050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1F3C095D1480F82B00324050 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		1F3C095E1480F82B00324050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F3C09611480F82B00324050 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F3C09681480F87F00324050 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		1F3C09691480F87F00324050 /* GLTutorialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTutorialController.h; sourceTree = "<group>"; };
+		1F3C096A1480F87F00324050 /* GLTutorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTutorialController.m; sourceTree = "<group>"; };
+		1F3C09711480F89B00324050 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		1F3C09721480F89B00324050 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		1F3C09741480F89B00324050 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1F3C09751480F89B00324050 /* hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole.png; sourceTree = "<group>"; };
+		1F3C097A1480F8C100324050 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F3C097C1480F8C700324050 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1F3C097E1480FBC400324050 /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
+		1F3C09801480FBD000324050 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		1F3C098C1480FC7500324050 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		1F3C098D1480FC8400324050 /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector.m; sourceTree = "<group>"; };
+		1F3C098F1481020500324050 /* Colour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colour.m; sourceTree = "<group>"; };
+		1F3C09911481021700324050 /* Colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colour.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3C097D1480F8C700324050 /* OpenGL.framework in Frameworks */,
+				1F3C097B1480F8C100324050 /* QuartzCore.framework in Frameworks */,
 				1F3C094C1480F82B00324050 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +87,8 @@
 		1F3C094A1480F82B00324050 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F3C097C1480F8C700324050 /* OpenGL.framework */,
+				1F3C097A1480F8C100324050 /* QuartzCore.framework */,
 				1F3C094B1480F82B00324050 /* Cocoa.framework */,
 				1F3C094D1480F82B00324050 /* Other Frameworks */,
 			);
@@ -82,10 +108,17 @@
 		1F3C09511480F82B00324050 /* Cocoa-GL-Tutorial-3 */ = {
 			isa = PBXGroup;
 			children = (
-				1F3C095D1480F82B00324050 /* AppDelegate.h */,
-				1F3C095E1480F82B00324050 /* AppDelegate.m */,
+				1F3C09681480F87F00324050 /* error.h */,
+				1F3C09691480F87F00324050 /* GLTutorialController.h */,
+				1F3C096A1480F87F00324050 /* GLTutorialController.m */,
 				1F3C09601480F82B00324050 /* MainMenu.xib */,
 				1F3C09521480F82B00324050 /* Supporting Files */,
+				1F3C09801480FBD000324050 /* Matrix.h */,
+				1F3C097E1480FBC400324050 /* Matrix.m */,
+				1F3C098C1480FC7500324050 /* Vector.h */,
+				1F3C098D1480FC8400324050 /* Vector.m */,
+				1F3C09911481021700324050 /* Colour.h */,
+				1F3C098F1481020500324050 /* Colour.m */,
 			);
 			path = "Cocoa-GL-Tutorial-3";
 			sourceTree = "<group>";
@@ -93,6 +126,8 @@
 		1F3C09521480F82B00324050 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F3C09701480F89B00324050 /* Shaders */,
+				1F3C09731480F89B00324050 /* Textures */,
 				1F3C09531480F82B00324050 /* Cocoa-GL-Tutorial-3-Info.plist */,
 				1F3C09541480F82B00324050 /* InfoPlist.strings */,
 				1F3C09571480F82B00324050 /* main.m */,
@@ -100,6 +135,24 @@
 				1F3C095A1480F82B00324050 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F3C09701480F89B00324050 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C09711480F89B00324050 /* Shader.fsh */,
+				1F3C09721480F89B00324050 /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		1F3C09731480F89B00324050 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C09741480F89B00324050 /* background.png */,
+				1F3C09751480F89B00324050 /* hole.png */,
+			);
+			path = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +182,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = "Hunted Cow Studios";
+				ORGANIZATIONNAME = "Tom Davie";
 			};
 			buildConfigurationList = 1F3C09411480F82B00324050 /* Build configuration list for PBXProject "Cocoa-GL-Tutorial-3" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -154,8 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3C09561480F82B00324050 /* InfoPlist.strings in Resources */,
+				1F3C09761480F89B00324050 /* Shader.fsh in Resources */,
+				1F3C09771480F89B00324050 /* Shader.vsh in Resources */,
 				1F3C095C1480F82B00324050 /* Credits.rtf in Resources */,
 				1F3C09621480F82B00324050 /* MainMenu.xib in Resources */,
+				1F3C09781480F89B00324050 /* background.png in Resources */,
+				1F3C09791480F89B00324050 /* hole.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3C09581480F82B00324050 /* main.m in Sources */,
-				1F3C095F1480F82B00324050 /* AppDelegate.m in Sources */,
+				1F3C096B1480F87F00324050 /* GLTutorialController.m in Sources */,
+				1F3C097F1480FBC400324050 /* Matrix.m in Sources */,
+				1F3C098E1480FC8400324050 /* Vector.m in Sources */,
+				1F3C09901481020500324050 /* Colour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
