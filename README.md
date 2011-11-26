@@ -53,9 +53,9 @@ Finally, this "model/view/projection" matrix is uploaded to our shader in a unif
 In our vertex shader, we use this matrix to transform each vertex that comes through.  We apply the transformation simply by pre-multiplying the vertex:
 
 
- uniform mat4 mvp;
- ...
-     gl_Position = mvp * position;
+     uniform mat4 mvp;
+     ...
+         gl_Position = mvp * position;
 
 ## Depth Testing
 
