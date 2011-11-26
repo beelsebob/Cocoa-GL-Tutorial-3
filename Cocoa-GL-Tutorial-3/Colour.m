@@ -15,5 +15,25 @@ inline Colour ColourMakeWithRGB (GLfloat r, GLfloat g, GLfloat b)
 
 inline Colour ColourMakeWithRGBA(GLfloat r, GLfloat g, GLfloat b, GLfloat a)
 {
-    return (Colour){.r=r, .g=g, .b=b, .a=a};
+    return (Colour){.v={r, g, b, a}};
+}
+
+inline GLfloat ColourGetRed(Colour c)
+{
+    return c.x;
+}
+
+inline GLfloat ColourGetGreen(Colour c)
+{
+    return c.y;
+}
+
+inline GLfloat ColourGetBlue(Colour c)
+{
+    return c.z;
+}
+
+inline GLfloat ColourGetAlpha(Colour c)
+{
+    return c.w;
 }

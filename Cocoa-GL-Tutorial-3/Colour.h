@@ -6,10 +6,14 @@
 //  Copyright (c) 2011 Tom Davie. All rights reserved.
 //
 
-typedef struct
-{
-    GLfloat r,g,b,a;
-} Colour;
+#import "Vector.h"
+
+typedef Vector4 Colour;
 
 Colour ColourMakeWithRGB (GLfloat r, GLfloat g, GLfloat b);
 Colour ColourMakeWithRGBA(GLfloat r, GLfloat g, GLfloat b, GLfloat a);
+
+GLfloat ColourGetRed(Colour c);
+GLfloat ColourGetGreen(Colour c);
+GLfloat ColourGetBlue(Colour c);
+GLfloat ColourGetAlpha(Colour c);
