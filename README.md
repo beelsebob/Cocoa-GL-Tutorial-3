@@ -40,7 +40,7 @@ We also set up two other matrices, which also represent coordinate space transfo
      Matrix4x4 viewMatrix = TranslationMatrix(0.0f, 0.0f, -5.0f);
      Matrix4x4 modelMatrix = RotationMatrix(0.707f, 0.3f, 0.64f, timeValue);
 
-The view matrix we use to convert from "world" space - i.e. the position of vertices in the world, to "view" space.  The model matrix we use to convert from "model" space -Êi.e. the position of vertices relative to the model's origin, to "world" space.
+The view matrix we use to convert from "world" space - i.e. the position of vertices in the world, to "view" space.  The model matrix we use to convert from "model" space - i.e. the position of vertices relative to the model's origin, to "world" space.
 
 Finally, we want to combine all these coordinate space transforms, so that we end up with one single transform that takes us all the way from the position of the vertices in the model, to clip space.  We do this by multiplying the various transformation matrices together:
 
