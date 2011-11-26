@@ -75,7 +75,7 @@ To achieve this, we use OpenGL's depth buffer.  To use this, we first need to re
          0
      };
 
-This buffer holds the depth of the currently drawn fragment for each pixel.  We then use OpenGL's depth function to only render new fragments who's depth vale is less than the existing one:
+This buffer holds the depth of the currently drawn fragment for each pixel.  We then use OpenGL's depth function to only render new fragments who's depth value is less than the existing one:
 
      glEnable(GL_DEPTH_TEST);
      glDepthFunc(GL_LESS);
