@@ -71,6 +71,7 @@ To achieve this, we use OpenGL's depth buffer.  To use this, we first need to re
          NSOpenGLPFADepthSize    , 32                           ,
          NSOpenGLPFADoubleBuffer ,
          NSOpenGLPFAAccelerated  ,
+         NSOpenGLPFANoRecovery   ,
          0
      };
 
