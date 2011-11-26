@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3C094C1480F82B00324050 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3C094B1480F82B00324050 /* Cocoa.framework */; };
+		1F3C09561480F82B00324050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09541480F82B00324050 /* InfoPlist.strings */; };
+		1F3C09581480F82B00324050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C09571480F82B00324050 /* main.m */; };
+		1F3C095C1480F82B00324050 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C095A1480F82B00324050 /* Credits.rtf */; };
+		1F3C095F1480F82B00324050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C095E1480F82B00324050 /* AppDelegate.m */; };
+		1F3C09621480F82B00324050 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C09601480F82B00324050 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F3C09471480F82B00324050 /* Cocoa-GL-Tutorial-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa-GL-Tutorial-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3C094B1480F82B00324050 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1F3C094E1480F82B00324050 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1F3C094F1480F82B00324050 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1F3C09501480F82B00324050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F3C09531480F82B00324050 /* Cocoa-GL-Tutorial-3-Info.plist */ = {isa = PBXFileReference; path = "Cocoa-GL-Tutorial-3-Info.plist"; sourceTree = "<group>"; };
+		1F3C09551480F82B00324050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F3C09571480F82B00324050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F3C09591480F82B00324050 /* Cocoa-GL-Tutorial-3-Prefix.pch */ = {isa = PBXFileReference; path = "Cocoa-GL-Tutorial-3-Prefix.pch"; sourceTree = "<group>"; };
+		1F3C095B1480F82B00324050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1F3C095D1480F82B00324050 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F3C095E1480F82B00324050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F3C09611480F82B00324050 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3C09441480F82B00324050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3C094C1480F82B00324050 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3C093C1480F82B00324050 = {
+			isa = PBXGroup;
+			children = (
+				1F3C09511480F82B00324050 /* Cocoa-GL-Tutorial-3 */,
+				1F3C094A1480F82B00324050 /* Frameworks */,
+				1F3C09481480F82B00324050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F3C09481480F82B00324050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C09471480F82B00324050 /* Cocoa-GL-Tutorial-3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3C094A1480F82B00324050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C094B1480F82B00324050 /* Cocoa.framework */,
+				1F3C094D1480F82B00324050 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F3C094D1480F82B00324050 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C094E1480F82B00324050 /* AppKit.framework */,
+				1F3C094F1480F82B00324050 /* CoreData.framework */,
+				1F3C09501480F82B00324050 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1F3C09511480F82B00324050 /* Cocoa-GL-Tutorial-3 */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C095D1480F82B00324050 /* AppDelegate.h */,
+				1F3C095E1480F82B00324050 /* AppDelegate.m */,
+				1F3C09601480F82B00324050 /* MainMenu.xib */,
+				1F3C09521480F82B00324050 /* Supporting Files */,
+			);
+			path = "Cocoa-GL-Tutorial-3";
+			sourceTree = "<group>";
+		};
+		1F3C09521480F82B00324050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3C09531480F82B00324050 /* Cocoa-GL-Tutorial-3-Info.plist */,
+				1F3C09541480F82B00324050 /* InfoPlist.strings */,
+				1F3C09571480F82B00324050 /* main.m */,
+				1F3C09591480F82B00324050 /* Cocoa-GL-Tutorial-3-Prefix.pch */,
+				1F3C095A1480F82B00324050 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3C09461480F82B00324050 /* Cocoa-GL-Tutorial-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3C09651480F82B00324050 /* Build configuration list for PBXNativeTarget "Cocoa-GL-Tutorial-3" */;
+			buildPhases = (
+				1F3C09431480F82B00324050 /* Sources */,
+				1F3C09441480F82B00324050 /* Frameworks */,
+				1F3C09451480F82B00324050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoa-GL-Tutorial-3";
+			productName = "Cocoa-GL-Tutorial-3";
+			productReference = 1F3C09471480F82B00324050 /* Cocoa-GL-Tutorial-3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F3C093E1480F82B00324050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Hunted Cow Studios";
+			};
+			buildConfigurationList = 1F3C09411480F82B00324050 /* Build configuration list for PBXProject "Cocoa-GL-Tutorial-3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F3C093C1480F82B00324050;
+			productRefGroup = 1F3C09481480F82B00324050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F3C09461480F82B00324050 /* Cocoa-GL-Tutorial-3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3C09451480F82B00324050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3C09561480F82B00324050 /* InfoPlist.strings in Resources */,
+				1F3C095C1480F82B00324050 /* Credits.rtf in Resources */,
+				1F3C09621480F82B00324050 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3C09431480F82B00324050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3C09581480F82B00324050 /* main.m in Sources */,
+				1F3C095F1480F82B00324050 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F3C09541480F82B00324050 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3C09551480F82B00324050 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F3C095A1480F82B00324050 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3C095B1480F82B00324050 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1F3C09601480F82B00324050 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3C09611480F82B00324050 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F3C09631480F82B00324050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F3C09641480F82B00324050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F3C09661480F82B00324050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-GL-Tutorial-3/Cocoa-GL-Tutorial-3-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-GL-Tutorial-3/Cocoa-GL-Tutorial-3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F3C09671480F82B00324050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocoa-GL-Tutorial-3/Cocoa-GL-Tutorial-3-Prefix.pch";
+				INFOPLIST_FILE = "Cocoa-GL-Tutorial-3/Cocoa-GL-Tutorial-3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3C09411480F82B00324050 /* Build configuration list for PBXProject "Cocoa-GL-Tutorial-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3C09631480F82B00324050 /* Debug */,
+				1F3C09641480F82B00324050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3C09651480F82B00324050 /* Build configuration list for PBXNativeTarget "Cocoa-GL-Tutorial-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3C09661480F82B00324050 /* Debug */,
+				1F3C09671480F82B00324050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F3C093E1480F82B00324050 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Cocoa-GL-Tutorial-3' target in the 'Cocoa-GL-Tutorial-3' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
