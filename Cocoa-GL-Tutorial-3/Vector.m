@@ -10,12 +10,12 @@
 
 inline Vector2 Vector2Make(GLfloat x, GLfloat y)
 {
-    return (Vector2){.x=x, .y=y};
+    return (Vector2){.v={x, y}};
 }
 
 inline Vector4 Vector4Make(GLfloat x, GLfloat y, GLfloat z, GLfloat w)
 {
-    return (Vector4){.x=x,.y=y,.z=z,.w=w};
+    return (Vector4){.v={x, y, z, w}};
 }
 
 inline GLfloat Vector4GetX(Vector4 v)
@@ -27,7 +27,6 @@ inline GLfloat Vector4GetY(Vector4 v)
 {
     return v.y;
 }
-
 
 inline GLfloat Vector4GetZ(Vector4 v)
 {

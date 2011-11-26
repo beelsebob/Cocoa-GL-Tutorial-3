@@ -6,14 +6,22 @@
 //  Copyright (c) 2011 Tom Davie. All rights reserved.
 //
 
-typedef struct
+typedef union
 {
-    GLfloat x, y;
+    struct
+    {
+        GLfloat x, y;
+    };
+    GLfloat v[2];
 } Vector2;
 
-typedef struct
+typedef union
 {
-    GLfloat x, y, z, w;
+    struct
+    {
+        GLfloat x, y, z, w;
+    };
+    GLfloat v[4];
 } Vector4;
 
 Vector2 Vector2Make(GLfloat x, GLfloat y);
